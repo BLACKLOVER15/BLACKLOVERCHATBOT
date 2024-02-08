@@ -97,7 +97,7 @@ HELP_BACK = [
            InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK"),
     ]
 ]
-@BLACKLOVERCHATBOT.on_message(filters.incoming & filters.private, group=-1)
+@BRANDEDCHAT.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(bot: Client, msg: Message):
     if not UPDATE_CHNL:
         return
@@ -126,7 +126,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 pass
     except ChatAdminRequired:
         print(f"Promote me as an admin in the UPDATE CHANNEL  : {UPDATE_CHNL} !")
-@BLACKLOVERCHATBOT.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
+@BRANDEDCHAT.on_message(filters.command(["start",f"start@{BOT_USERNAME}"]))
 async def restart(client, m: Message):
         accha = await m.reply_text(
                         text = f"{g}")
@@ -148,7 +148,7 @@ async def restart(client, m: Message):
             caption=START,
             reply_markup=InlineKeyboardMarkup(MAIN),
         )
-@BLACKLOVERCHATBOT.on_callback_query(
+@BRANDEDCHAT.on_callback_query(
 async def cb_handler(Client, query: CallbackQuery):
     if query.data == "HELP":
      await query.message.edit_text(
@@ -165,17 +165,17 @@ async def cb_handler(Client, query: CallbackQuery):
     elif query.data == 'hurr':
         await query.answer()
         await query.message.edit_text(SOURCE)
-@BLACKLOVERCHATBOT.on_message(filters.command(["help", f"help@{BOT_USERNAME}"], prefixes=["","+", ".", "/", "-", "?", "$"]))
+@BRANDEDCHAT.on_message(filters.command(["help", f"help@{BOT_USERNAME}"], prefixes=["","+", ".", "/", "-", "?", "$"]))
 async def restart(client, message):
     hmm = await message.reply_photo(START_IMG,
                              caption= HELP_READ,
                         reply_markup= InlineKeyboardMarkup(HELP_BACK),
        )
-@BLACKLOVERCHATBOT.on_message(filters.command(['source', 'repo']))
+@BRANDEDCHAT.on_message(filters.command(['source', 'repo']))
 async def source(bot, m):
     await m.reply_photo(START_IMG, caption=SOURCE_TEXT, reply_markup=SOURCE_BUTTONS, reply_to_message_id=m.id)
 #  alive
-@BLACKLOVERCHATBOT.on_message(filters.command(["ping","alive"], prefixes=["","+", "/", "-", "?", "$", "&","."]))
+@BRANDEDCHAT.on_message(filters.command(["ping","alive"], prefixes=["","+", "/", "-", "?", "$", "&","."]))
 async def ping(client, message: Message):
         start = datetime.now()
         t = "__ριиgιиg...__"
@@ -192,7 +192,7 @@ async def ping(client, message: Message):
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
-@BLACKLOVERCHATBOT.on_message(
+@BRANDEDCHAT.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatbotofd(client, message):
@@ -215,7 +215,7 @@ async def chatbotofd(client, message):
         await message.reply_text(f"ChatBot Already Disabled")
     
 
-@BLACKLOVERCHATBOT.on_message(
+@BRANDEDCHAT.on_message(
     filters.command(["chatbot on", f"chatbot@{BOT_USERNAME} on"] ,prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatboton(client, message):
@@ -237,15 +237,14 @@ async def chatboton(client, message):
         vick.delete_one({"chat_id": message.chat.id})
         await message.reply_text(f"ChatBot Enabled!")
     
-
-@BLACKLOVERCHATBOT.on_message(
+@BRANDEDCHAT.on_message(
     filters.command(["chatbot", f"chatbot@{BOT_USERNAME}"], prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def chatbot(client, message):
     await message.reply_text(f"**ᴜsᴀɢᴇ:**\n/**chatbot [on/off]**\n**ᴄʜᴀᴛ-ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅ(s) ᴡᴏʀᴋ ɪɴ ɢʀᴏᴜᴘ ᴏɴʟʏ!**")
 
 
-@BLACKLOVERCHATBOT.on_message(
+@BRANDEDCHAT.on_message(
  (
         filters.text
         | filters.sticker
@@ -311,7 +310,7 @@ async def vickai(client: Client, message: Message):
                    chatai.insert_one({"word": message.reply_to_message.text, "text": message.text, "check": "none"})    
                
 
-@BLACKLOVERCHATBOT.on_message(
+@BRANDEDCHAT.on_message(
  (
         filters.sticker
         | filters.text
@@ -378,7 +377,7 @@ async def vickstickerai(client: Client, message: Message):
                
 
 
-@BLACKLOVERCHATBOT.on_message(
+@BRANDEDCHAT.on_message(
     (
         filters.text
         | filters.sticker
@@ -421,7 +420,7 @@ async def vickprivate(client: Client, message: Message):
                await message.reply_text(f"{hey}")
        
 
-@BLACKLOVERCHATBOT.on_message(
+@BRANDEDCHAT.on_message(
  (
         filters.sticker
         | filters.text
@@ -464,4 +463,4 @@ async def vickprivatesticker(client: Client, message: Message):
                await message.reply_sticker(f"{hey}")
 
 print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ!")      
-BLACKLOVERCHATBOT.run()
+BRANDEDCHAT.run()

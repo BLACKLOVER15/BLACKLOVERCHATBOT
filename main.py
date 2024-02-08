@@ -148,7 +148,7 @@ async def restart(client, m: Message):
             caption=START,
             reply_markup=InlineKeyboardMarkup(MAIN),
         )
-@BRANDEDCHAT.on_callback_query(
+@BRANDEDCHAT.on_callback_query()
 async def cb_handler(Client, query: CallbackQuery):
     if query.data == "HELP":
      await query.message.edit_text(

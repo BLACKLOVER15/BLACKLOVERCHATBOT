@@ -1,10 +1,10 @@
-## ʙʀᴀɴᴅᴇᴅ ᴋɪɴɢ 🚬🦋
+## 𝗕𝗹𝗮𝗰𝗸 𝗟𝗼𝘃𝗲𝗿 🇮🇳 🦋
 
 <h2 align="center">   
-    ──「◄⏤͟͞ꭙͯ͢³⋆꯭ꙶ⋆꯭ͣ⋆᭄ͫ͢🍁⃝🇧𝐑𝐀𝐍𝐃𝐄𝐃 ᥫᩣ🇰𝗜𝗡𝗚𐏓꯭ ᷞ ͦ͢ ͮ ͤ𓆪🕊⃝🦋 」──  
+    ──「◄⏤͟͞ꭙͯ͢³⋆꯭ꙶ⋆꯭ͣ⋆᭄ͫ͢🍁⃝‌🇧‌𝗹𝗮𝗰𝗸🇱‌𝗼𝘃𝗲𝗿𐏓꯭ ᷞ ͦ͢ ͮ ͤ𓆪🕊⃝🦋 」──  
    </h2>  
  <p align="center">   
-<img src="https://graph.org/file/51e1bf391ebb7421aca57.jpg"
+<img src="https://te.legra.ph/file/42b98c96e02f9fd40145e.jpg"
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -16,21 +16,21 @@
 ᴠɪᴄᴋᴍᴀᴄʜɪɴᴇʙᴏᴛ ɪs ɴᴏᴛ ᴍɪɴᴇ.
 
 # ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ 🚀
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/WCGKING/BRANDEDCHATBOT"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/BLACKLOVER15/BLACKLOVERCHATBOT"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 ## <i>ᴄʜᴇᴄᴋ ᴛʜᴇ ᴅᴇᴍᴏ ʀᴏʙᴏᴛ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ!</i>
 <i>ᴀʟʟ ᴛʜᴇ ᴄᴜsᴛᴏᴍɪsᴀᴛɪᴏɴs ᴀʀᴇ ᴀᴠᴀɪʟᴀʙʟᴇ. ᴊᴜsᴛ ᴄʜᴇᴄᴋᴏᴜᴛ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴠᴀʀɪᴀʙʟᴇs.</i>
-<p align="center"><a href="https://t.me/https:WCGKING/BRANDEDCHATBOT"> <img src="https://img.shields.io/badge/CHECK-Demo%20Robot-black?style=for-the-badge&logo=Telegram" width="220" height="39"/></a></p>
+<p align="center"><a href="https://t.me/https:BLACKLOVER15/BLACKLOVERCHATBOT"> <img src="https://img.shields.io/badge/CHECK-Demo%20Robot-black?style=for-the-badge&logo=Telegram" width="220" height="39"/></a></p>
 
 ### sᴜᴘᴘᴏʀᴛ
-<p align="center"><a href="https://t.me/BRANDED_WORLD"> <img src="https://img.shields.io/badge/JOIN-SUPPORT%20GROUP-black?style=for-the-badge&logo=Telegram" width="220" height="38.5"/></a></p>
-<p align="center"><a href="https://t.me/BRANDRD_BOT"> <img src="https://img.shields.io/badge/JOIN-SUPPORT%20CHANNEL-black?style=for-the-badge&logo=Telegram" width="220" height="38.5"/></a></p>
+<p align="center"><a href="https://t.me/saikosaiyan"> <img src="https://img.shields.io/badge/JOIN-SUPPORT%20GROUP-black?style=for-the-badge&logo=Telegram" width="220" height="38.5"/></a></p>
+<p align="center"><a href="https://t.me/Exampurrrrrr"> <img src="https://img.shields.io/badge/JOIN-SUPPORT%20CHANNEL-black?style=for-the-badge&logo=Telegram" width="220" height="38.5"/></a></p>
 
 ## sᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋs 🚬🦋
 
-- [Rᴏʏᴀʟ Rᴀᴊᴘᴜᴛ](https://t.me/BRANDED_WORLD)
-- [Bʀᴀɴᴅᴇᴅ ᴋɪɴɢ](https://t.me/BRANDRD_BOT)
+- [Miss Chandauli](https://t.me/saikosaiyan)
+- [Black Lover](https://t.me/BlackMusicSupport)
 
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
